@@ -44,8 +44,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.randomkey = new System.Windows.Forms.Button();
             this.save = new System.Windows.Forms.Button();
-            this.keyText = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // exit
@@ -139,7 +137,7 @@
             // 
             // coun
             // 
-            this.coun.Location = new System.Drawing.Point(399, 158);
+            this.coun.Location = new System.Drawing.Point(231, 158);
             this.coun.Multiline = true;
             this.coun.Name = "coun";
             this.coun.Size = new System.Drawing.Size(53, 41);
@@ -149,7 +147,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(358, 128);
+            this.label1.Location = new System.Drawing.Point(189, 137);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(141, 16);
             this.label1.TabIndex = 11;
@@ -203,32 +201,11 @@
             this.save.UseVisualStyleBackColor = true;
             this.save.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // keyText
-            // 
-            this.keyText.Location = new System.Drawing.Point(183, 128);
-            this.keyText.Multiline = true;
-            this.keyText.Name = "keyText";
-            this.keyText.Size = new System.Drawing.Size(169, 41);
-            this.keyText.TabIndex = 17;
-            this.keyText.TextChanged += new System.EventHandler(this.keyText_TextChanged);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(231, 193);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_2);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.keyText);
             this.Controls.Add(this.save);
             this.Controls.Add(this.randomkey);
             this.Controls.Add(this.label4);
@@ -271,8 +248,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button randomkey;
         private System.Windows.Forms.Button save;
-        private System.Windows.Forms.TextBox keyText;
-        private System.Windows.Forms.Button button1;
     }
 }
 
